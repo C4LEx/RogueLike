@@ -48,6 +48,9 @@
     <ClCompile Include="inventory.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="randomFunctions.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dungeonField.h">
@@ -78,6 +81,9 @@
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="inventory.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunctions.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
