@@ -151,6 +151,7 @@
     <ClCompile Include="pathfinder.cpp" />
     <ClCompile Include="player.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="randomFunctions.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dungeonField.h" />
@@ -164,6 +165,7 @@
     <ClInclude Include="monsterController.h" />
     <ClInclude Include="pathfinder.h" />
     <ClInclude Include="player.h" />
+    <ClInclude Include="randomFunctions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

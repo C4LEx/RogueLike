@@ -48,6 +48,7 @@
     <ClCompile Include="inventory.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="randomFunctions.cpp">
     <ClCompile Include="experience.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
@@ -83,6 +84,7 @@
     <ClInclude Include="inventory.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="randomFunctions.h">
     <ClInclude Include="experience.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
