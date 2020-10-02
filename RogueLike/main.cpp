@@ -2,10 +2,15 @@
 //
 
 #include <iostream>
+#include <vector>
+#include <string>
+#include "item.h"
 
 int main()
 {
-    std::cout << "Hello World!";
+    std::cout << "Hello World!" << std::endl;
+    std::cout << " " << std::endl;
+   Item item(1);
 }
 
 // Programm ausführen: STRG+F5 oder Menüeintrag "Debuggen" > "Starten ohne Debuggen starten"
