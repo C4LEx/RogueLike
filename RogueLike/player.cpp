@@ -1,4 +1,5 @@
 #include "player.h"
+#include "experience.h"
 
 Player::Player(std::string input)
 {
@@ -36,10 +37,14 @@ int Player::getExp()
 	return exp;
 }
 
-void Player::changeExp(int input, int level, std::vector<int> explist)
+void Player::changeExp(int input, int level)
 {
 	exp = exp + input;
-	// if (exp >= )
+	Experience experience;
+	while (experience.enoughExp(exp, level))
+	{
+		changeLevel(1);
+	}
 }
 
 int Player::getHealth()

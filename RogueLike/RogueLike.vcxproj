@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="dungeonField.cpp" />
     <ClCompile Include="dungeonGenerator.cpp" />
+    <ClCompile Include="experience.cpp" />
     <ClCompile Include="framework.cpp" />
     <ClCompile Include="graphicEngine.cpp" />
     <ClCompile Include="inventory.cpp" />
@@ -155,6 +156,7 @@
   <ItemGroup>
     <ClInclude Include="dungeonField.h" />
     <ClInclude Include="dungeonGenerator.h" />
+    <ClInclude Include="experience.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="graphicEngine.h" />
     <ClInclude Include="inventory.h" />

@@ -17,14 +17,13 @@ private:
 	int criticalDamage;
 	int gold;
 	int agility;
-	//std::vector <int> explist;
 public:
 	Player(std::string input);
 	std::string getPlayername();
 	int getLevel();
 	void changeLevel(int input);
 	int getExp();
-	void changeExp(int input, int level, std::vector<int> explist);
+	void changeExp(int input, int level);
 	int getHealth();
 	void changeHealth(int input);
 	int getArmor();
