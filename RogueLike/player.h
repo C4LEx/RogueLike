@@ -5,7 +5,7 @@
 class Player
 {
 private:
-	string name;
+	std::string name;
 	int level;
 	int exp;
 	int health;
@@ -17,11 +17,14 @@ private:
 	int criticalDamage;
 	int gold;
 	int agility;
-	vector <int> explist;
+	//std::vector <int> explist;
 public:
-	Player(string input);
-	string getPlayername();
+	Player(std::string input);
+	std::string getPlayername();
+	int getLevel();
 	void changeLevel(int input);
+	int getExp();
+	void changeExp(int input, int level, std::vector<int> explist);
 	int getHealth();
 	void changeHealth(int input);
 	int getArmor();
