@@ -1,7 +1,5 @@
 #pragma once
 
-#include "randomFunctions.h"
-
 class DungeonField
 {
 private:

@@ -41,12 +41,7 @@ DungeonField* DungeonField::createNewField(DungeonField* parent)
 	}
 	else
 	{
-		RandomFunctions rng{ 1,2 };
 
-		if (rng == 1)
-			splitHorizontal = false;
-		else if (rng == 2)
-			splitHorizontal = true;
 	}
 
 	if (splitHorizontal)
