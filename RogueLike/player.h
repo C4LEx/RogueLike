@@ -6,6 +6,7 @@ class Player
 {
 private:
 	std::string name;
+	int origin;
 	int level;
 	int exp;
 	int health;
@@ -18,8 +19,9 @@ private:
 	int gold;
 	int agility;
 public:
-	Player(std::string input);
+	Player(std::string input, int clan);
 	std::string getPlayername();
+	int getClass();
 	int getLevel();
 	void changeLevel(int input);
 	int getExp();

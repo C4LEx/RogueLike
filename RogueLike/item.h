@@ -13,17 +13,18 @@ private:
 	std::string seldom;
 	int health;
 	int armor;
+	int damage;
 	int strength;
 	int dextory;
 	int wisdom;
 	int criticalChance;
 	int criticalDamage;
-	int gold;
 	int agility;
+	int goldworth;
 	std::vector<std::string> grouplist;
 	std::vector<std::string> seldomlist;
 public:
-	Item(int input);
+	Item();
 	void itemGeneration(int playerlevel);
 
 };
