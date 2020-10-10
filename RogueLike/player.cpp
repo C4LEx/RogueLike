@@ -4,7 +4,7 @@
 Player::Player(std::string input, int clan)
 {
 	std::string name = input;
-	origin = 0;
+	origin = clan;
 	level = 1;
 	exp = 0;
 	health = 10;

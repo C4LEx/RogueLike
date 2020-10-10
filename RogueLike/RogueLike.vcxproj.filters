@@ -13,6 +13,8 @@
     <ClCompile Include="pathfinder.cpp" />
     <ClCompile Include="player.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="inputcheck.cpp" />
+    <ClCompile Include="error.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dungeonField.h" />
@@ -26,6 +28,8 @@
     <ClInclude Include="monsterController.h" />
     <ClInclude Include="pathfinder.h" />
     <ClInclude Include="player.h" />
+    <ClInclude Include="inputcheck.h" />
+    <ClInclude Include="error.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Quellen">

@@ -1,10 +1,10 @@
 #include "inventory.h"
 #include "item.h"
-#include "player.h";
+#include "player.h"
 
 Inventory::Inventory()
 {
-	//slots = gear.size();
+	slots = 0;
 	//Player &player();
 	//player.getClass();
 	Item start;
@@ -13,7 +13,5 @@ Inventory::Inventory()
 
 void Inventory::putItemInGear(int whatItem)
 {
-	Item item;
-	item.itemGeneration(1);
-	//gear.push_back(item);
+	
 }

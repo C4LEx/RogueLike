@@ -25,6 +25,7 @@ private:
 	std::vector<std::string> seldomlist;
 public:
 	Item();
-	void itemGeneration(int playerlevel);
-
+	void randomItemGeneration(int playerlevel);
+	void generateSpecificItem(int whatItem, int rarity, int health, int armor, int damage, int strength, int dextory, int wisdom, int criticalDamage, int criticalChance, int agility, int goldworth);
+	std::string suffixGenerator(int whatItem);
 };

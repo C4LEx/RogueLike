@@ -4,19 +4,16 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include "item.h"
-#include "player.h";
-#include "inventory.h"
+#include "framework.h"
 
 int main()
 {
     std::cout << "Hello World!" << std::endl;
     std::cout << " " << std::endl;
-    std::string name = "Max";
-    Player player(name, 1);
-    //Inventory inv;
-    //Item item;
-    //item.itemGeneration(5);
+    Framework framework;
+    framework.nameInput();
+    framework.classInput();
+    framework.startItems();
 }
 
 // Programm ausführen: STRG+F5 oder Menüeintrag "Debuggen" > "Starten ohne Debuggen starten"
