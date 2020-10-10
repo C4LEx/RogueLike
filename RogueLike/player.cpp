@@ -1,9 +1,10 @@
 #include "player.h"
 #include "experience.h"
 
-Player::Player(std::string input)
+Player::Player(std::string input, int clan)
 {
 	std::string name = input;
+	origin = 0;
 	level = 1;
 	exp = 0;
 	health = 10;
@@ -20,6 +21,11 @@ Player::Player(std::string input)
 std::string Player::getPlayername()
 {
 	return name;
+}
+
+int Player::getClass()
+{
+	return origin;
 }
 
 int Player::getLevel()

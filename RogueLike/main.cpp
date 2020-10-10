@@ -5,12 +5,18 @@
 #include <vector>
 #include <string>
 #include "item.h"
+#include "player.h";
+#include "inventory.h"
 
 int main()
 {
     std::cout << "Hello World!" << std::endl;
     std::cout << " " << std::endl;
-   Item item(1);
+    std::string name = "Max";
+    Player player(name, 1);
+    //Inventory inv;
+    //Item item;
+    //item.itemGeneration(5);
 }
 
 // Programm ausführen: STRG+F5 oder Menüeintrag "Debuggen" > "Starten ohne Debuggen starten"
