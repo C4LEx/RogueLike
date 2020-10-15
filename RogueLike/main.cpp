@@ -11,9 +11,7 @@ int main()
     std::cout << "Hello World!" << std::endl;
     std::cout << " " << std::endl;
     Framework framework;
-    framework.nameInput();
-    framework.classInput();
-    framework.startItems();
+    framework.gettingStarted();
 }
 
 // Programm ausführen: STRG+F5 oder Menüeintrag "Debuggen" > "Starten ohne Debuggen starten"

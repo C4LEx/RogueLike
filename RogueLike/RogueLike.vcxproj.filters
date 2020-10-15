@@ -15,6 +15,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="inputcheck.cpp" />
     <ClCompile Include="error.cpp" />
+    <ClCompile Include="playermanager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dungeonField.h" />
@@ -30,6 +31,7 @@
     <ClInclude Include="player.h" />
     <ClInclude Include="inputcheck.h" />
     <ClInclude Include="error.h" />
+    <ClInclude Include="playermanager.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Quellen">

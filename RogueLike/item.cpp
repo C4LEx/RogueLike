@@ -210,3 +210,22 @@ std::string Item::suffixGenerator(int whatItem)
 
 	return suffix;
 }
+
+std::string Item::getGroup()
+{
+	return group;
+}
+int Item::getGroupIndex()
+{
+	for (int i = 0; i < grouplist.size(); i++)
+	{
+		if (grouplist.at(i).compare(group) == 0)
+			return i;
+	}
+	return 0;
+}
+
+std::string Item::getName()
+{
+	return name;
+}

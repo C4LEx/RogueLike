@@ -3,7 +3,7 @@
 
 Player::Player(std::string input, int clan)
 {
-	std::string name = input;
+	name = input;
 	origin = clan;
 	level = 1;
 	exp = 0;
@@ -16,6 +16,8 @@ Player::Player(std::string input, int clan)
 	criticalDamage = 150;
 	gold = 0;
 	agility = 1;
+
+	this->player = nullptr;
 }
 
 std::string Player::getPlayername()

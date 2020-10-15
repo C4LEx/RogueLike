@@ -18,6 +18,7 @@ private:
 	int criticalDamage;
 	int gold;
 	int agility;
+	Player* player;
 public:
 	Player(std::string input, int clan);
 	std::string getPlayername();

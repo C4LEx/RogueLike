@@ -28,4 +28,7 @@ public:
 	void randomItemGeneration(int playerlevel);
 	void generateSpecificItem(int whatItem, int rarity, int health, int armor, int damage, int strength, int dextory, int wisdom, int criticalDamage, int criticalChance, int agility, int goldworth);
 	std::string suffixGenerator(int whatItem);
+	std::string getGroup();
+	int getGroupIndex();
+	std::string getName();
 };

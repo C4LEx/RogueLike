@@ -4,13 +4,16 @@
 #include <cstdlib>
 #include <ctime>
 #include <iostream>
+#include "item.h"
 
 class Inventory
 {
 private:
-	int slots;
-	//std::vector<Item> gear;
+	Inventory* inventory;
+	std::vector<Item> itemlist;
+	std::vector<Item> gearlist;
 public:
 	Inventory();
-	void putItemInGear(int whatItem);
+	void putItemInGear(Item whatItem);
+	void changeItemlistSize(int change);
 };
